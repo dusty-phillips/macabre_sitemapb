@@ -3,6 +3,8 @@ version = "1.0.0"
 
 [dependencies]
 gleam_stdlib = { git = "git@github.com:dusty-phillips/macabre_stdlib.git", ref = "main" }
+gleam_time = { git = "git@github.com:dusty-phillips/macabre_gleam_time.git", ref = "main" }
+xmb = { git = "git@github.com:dusty-phillips/macabre_xmb.git", ref = "main" }
 
 [dev-dependencies]
 gleeunit = { git = "git@github.com:dusty-phillips/macabre_gleeunit.git", ref = "main" }
